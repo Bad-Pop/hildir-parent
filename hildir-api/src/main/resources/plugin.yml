@@ -1,0 +1,11 @@
+name: hildir-api
+version: '${project.version}'
+main: com.github.badpop.hildirapi.HildirApi
+api-version: '1.20'
+author: Bad_Pop
+description: L'api centrale du serveur Hildir :D
+depend: [ LuckPerms, Vault, UltraEconomy ]
+commands:
+  hildirapi:
+    aliases: [hapi]
+    description: commande de base de l'api hildir

@@ -1,0 +1,14 @@
+name: hildir-welcome
+version: '${project.version}'
+main: com.github.badpop.hildirwelcome.HildirWelcome
+api-version: '1.20'
+author: Bad_Pop
+description: Le plugin qui gère l'arrivée des nouveaux joueurs sur Hildir
+commands:
+  hwreload:
+    permission: "hildir-welcome.reload"
+    permission-message: "Tu n'es pas autorisé à faire ça :)"
+    description: recharge la configuration du plugin
+  introduction:
+    aliases: [ intro ]
+    description: Ouvre le livre de bienvenue d'Hildir

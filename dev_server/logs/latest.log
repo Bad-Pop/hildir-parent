@@ -1,0 +1,281 @@
+[20:42:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:42:58] [ServerMain/INFO]: Loaded 1174 recipes
+[20:42:59] [ServerMain/INFO]: Loaded 1271 advancements
+[20:42:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:42:59] [Server thread/INFO]: Loading properties
+[20:42:59] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[20:43:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:43:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:43:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:43:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[20:43:00] [Server thread/INFO]: Default game type: SURVIVAL
+[20:43:00] [Server thread/INFO]: Generating keypair
+[20:43:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:43:01] [Server thread/INFO]: Using default channel type
+[20:43:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:43:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:43:02] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[20:43:02] [Server thread/INFO]: [UltraEconomy] Loading server plugin UltraEconomy v2.8.3
+[20:43:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.130
+[20:43:02] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:43:02] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.10.1-SNAPSHOT-781;e9866fb
+[20:43:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ea3b05d]
+[20:43:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[20:43:05] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.7.14
+[20:43:05] [Server thread/INFO]: [hildir-api] Loading server plugin hildir-api v1.0.0-SNAPSHOT
+[20:43:05] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:43:05] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[20:43:05] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.2.12
+[20:43:05] [Server thread/INFO]: [EconomyShopGUI-Premium] Loading server plugin EconomyShopGUI-Premium v5.12.0
+[20:43:05] [Server thread/INFO]: [hildir-welcome] Loading server plugin hildir-welcome v1.0.0-SNAPSHOT
+[20:43:05] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.3.0
+[20:43:05] [Server thread/INFO]: [hildir-people] Loading server plugin hildir-people v1.0.0-SNAPSHOT
+[20:43:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:43:05] [Server thread/INFO]: [UltraEconomy] Enabling UltraEconomy v2.8.3
+[20:43:06] [Server thread/INFO]: [UltraEconomy] Loading Plugin...
+[20:43:07] [Server thread/INFO]: [UltraEconomy] Hooked into Vault
+[20:43:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uecon [1.0.0]
+[20:43:07] [Server thread/INFO]: [UltraEconomy] Hooked into PlaceholderAPI
+[20:43:07] [Server thread/INFO]: [UltraEconomy] Successfully loaded in 1109 ms
+[20:43:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.130
+[20:43:08] [Server thread/INFO]:         __    
+[20:43:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.130
+[20:43:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:43:08] [Server thread/INFO]: 
+[20:43:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:43:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[20:43:08] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[20:43:08] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[20:43:09] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[20:43:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:43:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:43:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2732ms)
+[20:43:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:43:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:43:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:43:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:43:10] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.10.1-SNAPSHOT-781;e9866fb
+[20:43:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:43:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:43:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:43:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:43:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
+[20:43:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[20:43:12] [Server thread/INFO]: Preparing level "angleterre"
+[20:43:12] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 4 build(s) out of date.
+You are running build 781, the latest version is build 785.
+Update at https://www.spigotmc.org/resources/13932/
+[20:43:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:43:13] [Server thread/INFO]: Time elapsed: 502 ms
+[20:43:13] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:43:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:43:13] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.7.14
+[20:43:14] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper  git-Paper-496 (MC: 1.20.4)
+[20:43:17] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:43:18] [Server thread/INFO]: CMI hooked.
+[20:43:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.7.14]
+[20:43:18] [Server thread/INFO]: PlaceholderAPI hooked.
+[20:43:18] [Server thread/INFO]: Updated (EN) language file. Took 74ms
+[20:43:18] [Server thread/INFO]: Updated (FR) language file. Took 36ms
+[20:43:18] [Server thread/INFO]: [hildir-api] Enabling hildir-api v1.0.0-SNAPSHOT
+[20:43:18] [Server thread/INFO]: [hildir-api] 
+██╗  ██╗██╗██╗     ██████╗ ██╗██████╗      █████╗ ██████╗ ██╗
+██║  ██║██║██║     ██╔══██╗██║██╔══██╗    ██╔══██╗██╔══██╗██║
+███████║██║██║     ██║  ██║██║██████╔╝    ███████║██████╔╝██║
+██╔══██║██║██║     ██║  ██║██║██╔══██╗    ██╔══██║██╔═══╝ ██║
+██║  ██║██║███████╗██████╔╝██║██║  ██║    ██║  ██║██║     ██║
+╚═╝  ╚═╝╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝     ╚═╝ is starting...
+
+[20:43:18] [Server thread/INFO]: [hildir-api] Building hildir-api v1.0.0-SNAPSHOT context...
+[20:43:18] [Server thread/INFO]: [hildir-api] Successfully created redis connection pool.
+[20:43:19] [Server thread/INFO]: [hildir-api] Successfully hook with LuckPerms api !
+[20:43:19] [Server thread/INFO]: [hildir-api] Successfully hook with Vault api !
+[20:43:19] [Server thread/INFO]: [hildir-api] Successfully hook with UltraEconomy api !
+[20:43:19] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] hildir-pool - Starting...
+[20:43:19] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] hildir-pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@a18940c
+[20:43:19] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] hildir-pool - Start completed.
+[20:43:19] [Server thread/INFO]: [hildir-api] Successfully created database connection pool.
+[20:43:19] [Server thread/INFO]: [hildir-api] hildir-api v1.0.0-SNAPSHOT context successfully built !
+[20:43:19] [Server thread/INFO]: [hildir-api] HildirApi is started !
+[20:43:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:43:19] [Server thread/INFO]: [WorldGuard] (angleterre) TNT ignition is PERMITTED.
+[20:43:19] [Server thread/INFO]: [WorldGuard] (angleterre) Lighters are PERMITTED.
+[20:43:19] [Server thread/INFO]: [WorldGuard] (angleterre) Lava fire is PERMITTED.
+[20:43:19] [Server thread/INFO]: [WorldGuard] (angleterre) Fire spread is UNRESTRICTED.
+[20:43:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'angleterre'
+[20:43:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:43:20] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[20:43:20] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:43:20] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:43:20] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[20:43:20] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:43:20] [Server thread/INFO]: [CMI] Enabling CMI v9.7.2.12
+[20:43:20] [Server thread/INFO]: _______________________________________________________
+[20:43:20] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[20:43:20] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[20:43:20] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[20:43:20] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[20:43:20] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[20:43:20] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[20:43:20] [Server thread/INFO]: _______________________________________________________
+[20:43:20] [Server thread/INFO]: Integrating PaperSpigot async methods
+[20:43:20] [Server thread/INFO]: Vault found. (Loaded: true)
+[20:43:20] [Server thread/INFO]: 47 Enabled and 12 Disabled modules
+[20:43:20] [Server thread/INFO]: ProtocolLib found. (Loaded: true)
+[20:43:21] [Server thread/INFO]: Permission plugin: LuckPerms5.4.130
+[20:43:21] [Server thread/INFO]: Initialized Cipher256 AES
+[20:43:21] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 105ms
+[20:43:21] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 4ms
+[20:43:21] [Server thread/INFO]: Detected Java21
+[20:43:21] [Server thread/INFO]: 11.3.2-MariaDB-1:11.3.2+maria~ubu2204 data base type detected
+[20:43:22] [Server thread/INFO]: Started MySQL data base. Took 548ms
+[20:43:22] [Server thread/INFO]: Vault was found - Enabling capabilities. Economy: UltraEconomy
+[20:43:22] [Server thread/INFO]: Can't determine point command default particle, defaultin to DUST
+[20:43:22] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 1ms
+[20:43:22] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 0ms
+[20:43:22] [Server thread/INFO]: Loaded (0) cooldowns into memory. Took 2ms
+[20:43:22] [Server thread/INFO]: Loaded (144) custom mob heads into memory. Took 26ms
+[20:43:22] [Server thread/INFO]: Loaded (4) warmups into memory. Took 1ms
+[20:43:23] [Server thread/INFO]: Loaded (1) kits into memory. Took 477ms
+[20:43:23] [Server thread/INFO]: Loaded (7) ranks into memory. Took 27ms
+[20:43:23] [Server thread/INFO]: Loaded (8) playtime rewards into memory. Took 5ms
+[20:43:23] [Server thread/INFO]: Loaded (1) player data into memory. Took 22ms
+[20:43:23] [Server thread/INFO]: Loaded (0) playtime records into memory. Took 1ms
+[20:43:23] [Server thread/INFO]: Loaded (1) playtime reward records into memory. Took 4ms
+[20:43:23] [Server thread/INFO]: Loaded (1) custom alias into memory. Took 7ms
+[20:43:23] [Server thread/INFO]: Registered events. Took 116ms
+[20:43:23] [Server thread/INFO]: Loaded (1) event action commands into memory. Took 14ms
+[20:43:23] [Server thread/INFO]: Loaded (EN) language file into memory. Took 171ms
+[20:43:23] [Server thread/INFO]: Loaded (FR) language file into memory. Took 133ms
+[20:43:23] [Server thread/INFO]: Loaded (245) worth values into memory. Took 69ms
+[20:43:23] [Server thread/INFO]: VaultPermissions found. (Loaded: true)
+[20:43:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmi [9.7.2.12]
+[20:43:23] [Server thread/INFO]: PlaceholderAPI hooked.
+[20:43:23] [Server thread/INFO]: PlaceholderAPI found. (Loaded: true)
+[20:43:23] [Server thread/INFO]: Jobs found. (Loaded: false)
+[20:43:23] [Server thread/INFO]: Starting world timer.
+[20:43:23] [Server thread/INFO]: Initializing world manager.
+[20:43:23] [Server thread/INFO]: Loaded (4) schedules into memory. Took 21ms
+[20:43:23] [Server thread/INFO]: Loaded GeoIP
+[20:43:23] [Server thread/INFO]: Loaded (0) skin cache entries into memory. Took 0ms
+[20:43:23] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 0ms
+[20:43:23] [Server thread/INFO]: Version 9.7.2.12 has been enabled
+[20:43:23] [Server thread/INFO]: _______________________________________________________
+[20:43:23] [Server thread/INFO]: [EconomyShopGUI-Premium] Enabling EconomyShopGUI-Premium v5.12.0
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Using lang-fr.yml as language file.
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement terminé pour 19 configurations de sections depuis /sections/
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement terminé pour 19 configurations de boutiques depuis /shops/
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Mise à jour des paramètres de la boutique ...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Utilisation de minecraft version 1.20.4...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Successfully hooked into Vault
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement terminé de 1 fournisseur(s) d'économie pour toutes les sections de magasin 17.
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Fournisseur Spawner défini sur AUTO dans la configuration
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Automatically searching for compatible spawner provider....
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Hook PlaceholderAPI activé...
+[20:43:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.0.0]
+[20:43:24] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:43:24] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement du fournisseur de stock d'articles...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement du fournisseur de vente limitée...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement du fournisseur de la tarification dynamique...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Chargement de tous les éléments...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loaded cached interval for rotating shop RotatingShop with next rotation in 29m 40s...
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Rotation de la boutique RotatingShop activée avec succès, avec un intervalle de rotation de 1h
+[20:43:24] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Initialisation - A pris 969ms pour terminer
+[20:43:25] [Server thread/INFO]: [hildir-welcome] Enabling hildir-welcome v1.0.0-SNAPSHOT
+[20:43:25] [Server thread/INFO]: [hildir-welcome] Successfully initialized hildir-welcome
+[20:43:25] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.3.0
+[20:43:25] [Server thread/INFO]: ------------- Jobs -------------
+[20:43:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jobsr [5.2.3.0]
+[20:43:25] [Server thread/INFO]: PlaceholderAPI hooked.
+[20:43:25] [Server thread/INFO]: Connected to database (MySQL)
+[20:43:25] [Server thread/INFO]: Loaded 8 titles
+[20:43:25] [Server thread/INFO]: Loaded 69 protected blocks timers
+[20:43:25] [Server thread/INFO]: Loaded 1402 custom item names
+[20:43:25] [Server thread/INFO]: Loaded 82 custom entity names
+[20:43:25] [Server thread/INFO]: Loaded 2 custom MythicMobs names
+[20:43:25] [Server thread/INFO]: Loaded 39 custom enchant names
+[20:43:25] [Server thread/INFO]: Loaded 43 custom enchant names
+[20:43:25] [Server thread/INFO]: Loaded 16 custom color names
+[20:43:25] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
+[20:43:25] [Server thread/INFO]: Loaded 4 shop items
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Builder
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Crafter
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Farmer
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Brewer
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Digger
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Woodcutter
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Fisherman
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Hunter
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Enchanter
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Miner
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Explorer
+[20:43:25] [Server thread/INFO]: Loaded 1 quests for Weaponsmith
+[20:43:25] [Server thread/INFO]: Loaded 12 jobs
+[20:43:25] [Server thread/INFO]: Loaded 0 boosted items
+[20:43:25] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
+[20:43:25] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
+[20:43:25] [Server thread/INFO]: Preloaded 1 players data in 0.01
+[20:43:25] [Server thread/INFO]: WorldGuard detected.
+[20:43:25] [Server thread/INFO]: Registering listeners...
+[20:43:25] [Server thread/INFO]: Listeners registered successfully
+[20:43:25] [Server thread/INFO]: Plugin has been enabled successfully.
+[20:43:25] [Server thread/INFO]: ------------------------------------
+[20:43:25] [Server thread/INFO]: [hildir-people] Enabling hildir-people v1.0.0-SNAPSHOT
+[20:43:25] [Server thread/INFO]: [hildir-people] 
+╔─────────────────────────────────────────────────────────────────────────────────────────────────╗
+│                                                                                                 │
+│   ██╗  ██╗██╗██╗     ██████╗ ██╗██████╗     ██████╗ ███████╗ ██████╗ ██████╗ ██╗     ███████╗   │
+│   ██║  ██║██║██║     ██╔══██╗██║██╔══██╗    ██╔══██╗██╔════╝██╔═══██╗██╔══██╗██║     ██╔════╝   │
+│   ███████║██║██║     ██║  ██║██║██████╔╝    ██████╔╝█████╗  ██║   ██║██████╔╝██║     █████╗     │
+│   ██╔══██║██║██║     ██║  ██║██║██╔══██╗    ██╔═══╝ ██╔══╝  ██║   ██║██╔═══╝ ██║     ██╔══╝     │
+│   ██║  ██║██║███████╗██████╔╝██║██║  ██║    ██║     ███████╗╚██████╔╝██║     ███████╗███████╗   │
+│   ╚═╝  ╚═╝╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚══════╝   │
+│                                                                                                 │
+╚─────────────────────────────────────────────────────────────────────────────────────────────────╝
+Starting plugin...
+
+[20:43:25] [Server thread/ERROR]: Error occurred while enabling hildir-people v1.0.0-SNAPSHOT (Is it up to date?)
+java.lang.LinkageError: loader constraint violation: loader 'hildir-people-1.0.0-SNAPSHOT.jar' @29b08d69 wants to load class com.github.badpop.hildir.common.dependencyinjection.PluginContextManager$PluginContext. A different class with the same name was previously loaded by 'hildir-api-1.0.0-SNAPSHOT.jar' @77c05f35. (com.github.badpop.hildir.common.dependencyinjection.PluginContextManager$PluginContext is in unnamed module of loader 'hildir-api-1.0.0-SNAPSHOT.jar' @77c05f35, parent loader java.net.URLClassLoader @421faab1)
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at com.github.badpop.hildir.common.dependencyinjection.PluginContextManager.buildPluginContext(PluginContextManager.java:46) ~[hildir-people-1.0.0-SNAPSHOT.jar:?]
+	at com.github.badpop.hildirpeople.HildirPeople.buildPluginContext(HildirPeople.java:58) ~[hildir-people-1.0.0-SNAPSHOT.jar:?]
+	at com.github.badpop.hildirpeople.HildirPeople.onEnable(HildirPeople.java:42) ~[hildir-people-1.0.0-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-496]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-496]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.4.jar:git-Paper-496]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:309) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-496]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:43:25] [Server thread/INFO]: [hildir-people] Disabling hildir-people v1.0.0-SNAPSHOT
+[20:43:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:43:26] [Server thread/INFO]: Running delayed init tasks
+[20:43:26] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:43:26] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:43:26] [Craft Scheduler Thread - 0 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[20:43:26] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (UltraEconomy)
+[20:43:26] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
+[20:43:26] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:43:26] [Server thread/INFO]: Done (26.862s)! For help, type "help"
+[20:43:26] [Server thread/INFO]: Timings Reset
+[20:43:26] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:43:26] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[20:43:26] [Craft Scheduler Thread - 5 - EconomyShopGUI-Premium/INFO]: [EconomyShopGUI-Premium] [INFO]: Une mise à jour est disponible pour EconomyShopGUI, vous exécutez v5.12.0 mais la v5.12.1 a été trouvé.
+[20:43:26] [Craft Scheduler Thread - 5 - EconomyShopGUI-Premium/INFO]: [EconomyShopGUI-Premium] [INFO]: Download using command /eshop update
+[20:43:31] [Craft Scheduler Thread - 3 - UltraEconomy/INFO]: [UltraEconomy] Translations successfully loaded & applied (34 UltraEconomy and Base Translation files found)

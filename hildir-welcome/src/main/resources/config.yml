@@ -1,0 +1,11 @@
+welcome-book:
+  pages:
+    - "<gold><bold>Bienvenue sur Hildir !</bold></gold>
+  \nNous te conseillons de bien lire ce livre avant de commencer ton aventure.
+  \n\nTu pourras rouvrir ce livre à tout moment avec la commande <red>/introduction</red>.
+  \n\nNous te souhaitons un très bon jeu <red><3</red>."
+    - "<gold>Hildir</gold> est un serveur fait par des passionnés et nous sommes à l'écoute de toutes les suggestions de nos joueurs.
+  \n\nAlors n'hésites surtout pas à nous donner ton avis."
+    - "Sur <gold>Hildir</gold> s'affrontent deux peuples, les saxons et les vikings. Le but du jeu est de s'emparer de la capitale du peuple adverse.
+  \nTu trouveras plus d'informations sur <blue><hover:show_text:Ouvrir le wiki><click:open_url:https://wiki.hildir.fr>notre wiki</click></hover></blue>.
+  \n\nTu peux maintenant <click:run_command:/peuple rejoindre><hover:show_text:choisir un peuple><red><bold>choisir ton peuple</bold></red></hover></click>."

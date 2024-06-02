@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  #MYSQL SERVICES
+  hildir-mysql-dev:
+    container_name: hildir-mysql-dev
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: P@ssw0rd
+      MYSQL_DATABASE: hildir
+      MYSQL_USER: hildir
+      MYSQL_PASSWORD: P@ssw0rd
+    volumes:
+      - hildir-mysql-dev:/var/lib/mysql
+    ports:
+      - "3306:3306"
+  hildir-phpmyadmin-dev:
+    container_name: hildir-phpmyadmin-dev
+    image: phpmyadmin/phpmyadmin:latest
+    links:
+      - hildir-mysql-dev
+    environment:
+      PMA_HOST: hildir-mysql-dev
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8081:80
+
+  # REDIS SERVICES
+  hildir-redis-dev:
+    container_name: hildir-redis-dev
+    image: redis:latest
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - hildir-redis-dev:/root/redis
+      - hildir-redis-dev:/usr/local/etc/redis/redis.conf
+    environment:
+      - REDIS_PASSWORD=P@ssw0rd
+      - REDIS_PORT=6379
+      - REDIS_DATABASES=1
+  hildir-redis-insight-dev:
+    image: redis/redisinsight:latest
+    restart: unless-stopped
+    ports:
+      - "8082:5540"
+    volumes:
+      - hildir-redis-insight-dev:/data
+    links:
+      - hildir-redis-dev
+    depends_on:
+      - hildir-redis-dev
+
+volumes:
+  hildir-mysql-dev:
+  hildir-redis-dev:
+  hildir-redis-insight-dev:

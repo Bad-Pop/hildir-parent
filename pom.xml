@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.bad-pop</groupId>
+	<artifactId>hildir-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>hildir-api</module>
+		<module>hildir-common</module>
+        <module>hildir-welcome</module>
+        <module>hildir-people</module>
+    </modules>
+
+	<properties>
+		<java.version>21</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- ############### INTERNAL ############### -->
+		<this.version>${project.version}</this.version>
+
+		<!-- ############### DEVELOPMENT ############### -->
+		<paper-api.version>1.20.4-R0.1-SNAPSHOT</paper-api.version>
+		<spring-context.version>6.1.8</spring-context.version>
+
+		<lombok.version>1.18.32</lombok.version>
+		<vavr.version>0.10.4</vavr.version>
+		<slf4j-api.version>2.0.13</slf4j-api.version>
+		<jackson-databind.version>2.14.2</jackson-databind.version>
+		<vavr-jackson.version>0.10.3</vavr-jackson.version>
+		<jedis.version>5.1.2</jedis.version>
+		<HikariCP.version>5.1.0</HikariCP.version>
+		<snakeyaml.version>2.2</snakeyaml.version>
+
+		<luckperms-api.version>5.4</luckperms-api.version>
+		<VaultAPI.version>1.7</VaultAPI.version>
+		<UltraEconomyAPI.version>1.0.0_build-7</UltraEconomyAPI.version>
+
+		<!-- ############### TEST ############### -->
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>papermc</id>
+			<url>https://repo.papermc.io/repository/maven-public/</url>
+		</repository>
+
+		<repository>
+			<id>techscode</id>
+			<url>https://repo.techscode.com/repository/techscode-apis/</url><!--For the UltraEconomy plugin's API-->
+		</repository>
+
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url><!--For the Vault plugin's API-->
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- ############### DEVELOPMENT ############### -->
+		<dependency>
+			<groupId>io.papermc.paper</groupId>
+			<artifactId>paper-api</artifactId>
+			<version>${paper-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring-context.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.vavr</groupId>
+			<artifactId>vavr</artifactId>
+			<version>${vavr.version}</version>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- ############### INTERNAL ############### -->
+			<dependency>
+				<groupId>com.github.bad-pop</groupId>
+				<artifactId>hildir-common</artifactId>
+				<version>${this.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.bad-pop</groupId>
+				<artifactId>hildir-api</artifactId>
+				<scope>provided</scope>
+				<version>${this.version}</version>
+			</dependency>
+
+			<!-- ############### DEVELOPMENT ############### -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${jackson-databind.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.datatype</groupId>
+				<artifactId>jackson-datatype-jsr310</artifactId>
+				<version>${jackson-databind.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.vavr</groupId>
+				<artifactId>vavr-jackson</artifactId>
+				<version>${vavr-jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>redis.clients</groupId>
+				<artifactId>jedis</artifactId>
+				<version>${jedis.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.zaxxer</groupId>
+				<artifactId>HikariCP</artifactId>
+				<version>${HikariCP.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.yaml</groupId>
+				<artifactId>snakeyaml</artifactId>
+				<version>${snakeyaml.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>net.luckperms</groupId>
+				<artifactId>api</artifactId>
+				<version>${luckperms-api.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.github.MilkBowl</groupId>
+				<artifactId>VaultAPI</artifactId>
+				<version>${VaultAPI.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>me.TechsCode</groupId>
+				<artifactId>UltraEconomyAPI</artifactId>
+				<version>${UltraEconomyAPI.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<!-- ############### TEST ############### -->
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.1</version>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-shade-plugin</artifactId>
+					<version>3.2.4</version>
+					<executions>
+						<execution>
+							<phase>package</phase>
+							<goals>
+								<goal>shade</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.2.5</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<version>3.6.3</version>
+					<configuration>
+						<show>private</show>
+						<nohelp>true</nohelp>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>3.0.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

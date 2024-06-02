@@ -1,0 +1,22 @@
+redis:
+  host: localhost
+  port: 6379
+  user:
+  password: P@ssw0rd
+  max-total: 20
+  max-idle: 20
+  min-idle: 5
+database:
+  host: localhost
+  port: 3306
+  database: hildir
+  user: hildir
+  password: P@ssw0rd
+  use-ssl: false
+  pool-name: hildir-pool
+  connection-timeout-in-ms: 3000
+  idle-timeout-in-ms: 60000
+  min-idle: 5
+  max-pool-size: 20
+  max-life-time-in-ms: 1800000
+  auto-commit: true
