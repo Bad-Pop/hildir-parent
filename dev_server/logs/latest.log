@@ -279,3 +279,53 @@ java.lang.LinkageError: loader constraint violation: loader 'hildir-people-1.0.0
 [20:43:26] [Craft Scheduler Thread - 5 - EconomyShopGUI-Premium/INFO]: [EconomyShopGUI-Premium] [INFO]: Une mise à jour est disponible pour EconomyShopGUI, vous exécutez v5.12.0 mais la v5.12.1 a été trouvé.
 [20:43:26] [Craft Scheduler Thread - 5 - EconomyShopGUI-Premium/INFO]: [EconomyShopGUI-Premium] [INFO]: Download using command /eshop update
 [20:43:31] [Craft Scheduler Thread - 3 - UltraEconomy/INFO]: [UltraEconomy] Translations successfully loaded & applied (34 UltraEconomy and Base Translation files found)
+[20:49:18] [Server thread/INFO]: Stopping the server
+[20:49:18] [Server thread/INFO]: Stopping server
+[20:49:18] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.3.0
+[20:49:18] [Server thread/INFO]: ------------- Jobs -------------
+[20:49:18] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[20:49:18] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[20:49:18] [Server thread/INFO]: Cleared boss bar cache
+[20:49:18] [Server thread/INFO]: Saved player data
+[20:49:18] [Server thread/INFO]: Closed database connection
+[20:49:18] [Server thread/INFO]: ------------------------------------
+[20:49:18] [Server thread/INFO]: [hildir-welcome] Disabling hildir-welcome v1.0.0-SNAPSHOT
+[20:49:18] [Server thread/INFO]: [EconomyShopGUI-Premium] Disabling EconomyShopGUI-Premium v5.12.0
+[20:49:18] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[20:49:18] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[20:49:18] [Server thread/INFO]: [CMI] Disabling CMI v9.7.2.12
+[20:49:18] [Server thread/INFO]: [CMI] Closed db connections
+[20:49:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[20:49:18] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:49:18] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:49:18] [Server thread/INFO]: [hildir-api] Disabling hildir-api v1.0.0-SNAPSHOT
+[20:49:18] [Server thread/INFO]: [hildir-api] Successfully stopped redis connection pool
+[20:49:18] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] hildir-pool - Shutdown initiated...
+[20:49:18] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] hildir-pool - Shutdown completed.
+[20:49:18] [Server thread/INFO]: [hildir-api] Successfully stopped database connection pool
+[20:49:18] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.7.14
+[20:49:18] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[20:49:18] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.10.1-SNAPSHOT-781;e9866fb
+[20:49:18] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:49:18] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:49:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.130
+[20:49:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:49:18] [Server thread/INFO]: [LuckPerms] Closing messaging service...
+[20:49:18] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:49:18] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown initiated...
+[20:49:18] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown completed.
+[20:49:18] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:49:18] [Server thread/INFO]: [UltraEconomy] Disabling UltraEconomy v2.8.3
+[20:49:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[20:49:18] [Server thread/INFO]: Saving players
+[20:49:18] [Server thread/INFO]: Saving worlds
+[20:49:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[angleterre]'/minecraft:overworld
+[20:49:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'angleterre'
+[20:49:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'angleterre'
+[20:49:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'angleterre'
+[20:49:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 79 entity chunks, 0 poi chunks in world 'angleterre' in 0,02s
+[20:49:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (angleterre): All chunks are saved
+[20:49:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:49:18] [Server thread/INFO]: Flushing Chunk IO
+[20:49:18] [Server thread/INFO]: Closing Thread Pool
+[20:49:18] [Server thread/INFO]: Closing Server
